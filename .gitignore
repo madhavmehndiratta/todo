@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/server/node_modules
+/server/.pnp
+/server/.pnp.js
+
+# production
+/server/build
+
+# misc
+/server/.DS_Store
+/server/*.pem
+
+# debug
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+
+# local env files
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
+
+# vercel
+/server/.vercel
+/server/.env
+
+
+# dependencies
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+
+# production
+/client/build
+
+# misc
+/client/.DS_Store
+/client/*.pem
+
+# debug
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# local env files
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# vercel
+/client/.vercel
+/client/.env
